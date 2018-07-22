@@ -1,3 +1,4 @@
+
 def my_collect(array)
   #Create counter
   i = 0
@@ -7,7 +8,7 @@ def my_collect(array)
 
   #loop through array and yield each element
   while i < array.size
-    collection << yield array[i]
+    collection << yield(array[i])
     i += 1
   end
 
